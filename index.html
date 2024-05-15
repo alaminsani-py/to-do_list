@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List with Categories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>To-Do List</h1>
+
+  <div id="add-task">
+    <input type="text" id="new-task" placeholder="Enter new task">
+    <select id="task-category">
+      <option value="">General</option>
+      <option value="work">Work</option>
+      <option value="personal">Personal</option>
+      <option value="errands">Errands</option>
+    </select>
+    <button id="add-btn">Add Task</button>
+  </div>
+
+  <ul id="todo-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
